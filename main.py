@@ -37,20 +37,19 @@ for i in menuItems:
 	print(i.specialData)  
 	print(i.description)
 
-def display_menu():
+def display_main_menu():
   print("\n **Mario's Pizzaria**")  
   print("1. View Menu") 
   print("2. Place An Order ")  
   print("3. Make A Reservation") 
         
 
-  #used to capture and process user selections
 def user_selection():
   
     #global isUsed
-    user_choice = int(input("Enter a number between 1-5: "))
+    user_choice = int(input("Please 1,2, or 3 to make a selection"))
     if user_choice == 1:  #Go to Store Inventory.
-        display_inventory() #print('show inventory')
+        display_pizza_menu() #print('show inventory')
     elif user_choice == 2:  #Initiate New Product Process.
         print('add a new product')
     elif user_choice == 3:  #Initiate Buying a New Product.
