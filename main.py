@@ -38,7 +38,7 @@ for i in menuItems:
 	print(i.description)
 
 def display_menu():
-  print("\n **Pizza Plant Pizzaria**")  
+  print("\n **Mario's Pizzaria**")  
   print("1. View Menu") 
   print("2. Place An Order ")  
   print("3. Make A Reservation") 
